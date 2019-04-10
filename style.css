@@ -1,0 +1,57 @@
+body{
+  background-image: url("hourglassbg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  }
+
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: : 30px;
+  color: white;
+}
+
+div{
+  background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+   border-radius: 30px;
+   width: 40%;
+   font-weight: bold;
+  margin-top: 10%;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color:white;
+}
+
+
+#rcorners1{
+border-radius: 25px;
+background-color: black;
+background-position: top;
+padding: 20px;
+width: 400px;
+height: 50px;
+}
+
+.button{
+font-family: 'Cinzel', serif;
+box-shadow: 0px 0px 50px 0px #e184f3;
+background-color:#972bad;
+border-radius:28px;
+border:1px solid #9432a8;
+display:inline-block;
+cursor:pointer;
+top: 60%;
+left: 40%;
+color:#ffffff;
+font-size:17px;
+padding:10px 25px ;
+text-decoration:none;
+text-shadow:-1px 1px 0px #7916b3;
+}
+
+.button:hover {
+background-color: black;
+}
