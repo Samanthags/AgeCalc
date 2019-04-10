@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>The Age Calculator</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+<body>
+
+
+<center>
+  <h1 class="center" id="rcorners1"> The Age Calculator</h1>
+
+<div>
+
+<form name = "number">
+Enter The Birth Year: <input type="text" class="textbox" id="one" size=10 name="1"><br>
+Enter The Desired Year: <input type="text" class="textbox" id="two" size=10 name="2"><br>
+
+</form><br>
+
+<form name="results">
+  To See Your Age, Click Here: <input type="button" class="button" name="addition" value="Enter" onClick="CalculateAge();"><br>
+</form>
+<p id="output">your age is...</p>
+</div>
+
+
+
+<script>
+function CalculateAge(){
+  var birthYear = document.getElementById("one").value;
+  var desiredYear = document.getElementById("two").value;
+  var age = desiredYear - birthYear;
+  document.getElementById("output").innerHTML= ('I will be either ' + age + ' or ' + (age - 1) + ' years old in ' + desiredYear);
+}
+
+</script>
+
+<button onclick="myButton()">Reset</button>
+<script>
+  function myButton(){
+    location.reload();
+  }
+</script>
+
+
+</body>
+</html>
